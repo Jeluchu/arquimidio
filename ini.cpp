@@ -14,20 +14,20 @@ void inicio(){
     strftime(output, 128, "%d/%m/%y a las %H:%M:%S", tlocal);
 
     printf("\n");
-    system("toilet -fpagga 'RUFFINATOR'");
+    system("toilet -fpagga 'ARQUIMIDIO'");
     printf("\n");
     sleep(2);
     printf(AMARILLO "|     Te damos la bienvenida ");
     printf("%s", getenv("USER"));
     printf("\n" NORMAL);
     sleep(1);
-    printf(VERDE "|     RUFFINATOR v0.1 ~ Versión 'ESTABLE'\n" NORMAL);
+    printf(VERDE "|     ARQUIMIDIO v0.1 ~ Versión 'ESTABLE'\n" NORMAL);
     sleep(1);
     printf(AZULETE "|     Iniciada el %s\n" NORMAL,output);
     printf("+---------------------------------------------------------------------+\n");
     sleep(1);
     printf(
-   NEGRITA "|     Ruffinator, el conversor diversor\n"
+   NEGRITA "|     Arquimidio, el conversor diversor\n"
            "|     En el podrás realizar conversiones de unidades\n"
            "|     y hacer diversos cálculos monetarios\n" NORMAL);
     printf("+---------------------------------------------------------------------+\n\n");
